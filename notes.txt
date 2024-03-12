@@ -1,0 +1,13 @@
+npm init -y
+npm install express
+npm install -D typescript @types/node @types/express
+npx tsc --init
+npm install  -D nodemon  ts-node
+npm install dotenv
+npm install prisma @prisma/client
+npx prisma init
+
+npm install jsonwebtoken bcrypt
+npm install -D @types/jsonwebtoken @types/bcrypt
+
+npm install zod
