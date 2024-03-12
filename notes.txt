@@ -11,3 +11,6 @@ npm install jsonwebtoken bcrypt
 npm install -D @types/jsonwebtoken @types/bcrypt
 
 npm install zod
+
+npx prisma migrate dev --name AddRolesT
+npx prisma studio
