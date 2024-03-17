@@ -1,3 +1,5 @@
+// Repo  https://github.com/NaimishVerma17/prisma-resources
+
 npm init -y
 npm install express
 npm install -D typescript @types/node @types/express
@@ -14,3 +16,6 @@ npm install zod
 
 npx prisma migrate dev --name AddRolesT
 npx prisma studio
+
+
+npx prisma generate
